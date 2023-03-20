@@ -1,4 +1,7 @@
-Download the files in your desired directory 
-Change the path in both Wrapper and Train file for Phase 1 and 2
-Use command python Wrapper,py for phase 1
-Use command python train.py for Phase 2
+# Auto Panorama 
+To run the package 
+```
+git clone git@github.com:nvnmangla/Auto-Panorama.git
+cd Auto-Panorama/Phase1/Code 
+python3 Wrapper.py --BasePath="<Path to image directory>"
+```
